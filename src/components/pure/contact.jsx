@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { Contact } from "../../models/contact.class";
 
 const ContactComponent = ({ contact }) => {
+
   return (
     <div>
       <h2>Nombre: {contact.firstname}</h2>
